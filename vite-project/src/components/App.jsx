@@ -1,10 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import "../blocks/App.css";
+import Header from "../Header/Header";
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div className="page">
+      <div className="page__content">
+        <Header />
+      </div>
+    </div>
+  );
 }
 
 export default App;
