@@ -1,4 +1,5 @@
 import WeatherCard from "../WeatherCard/WeatherCard";
+import ItemCard from "../ItemCard/ItemCard";
 import { defaultClothingItems } from "../../utils/constants";
 
 function Main() {
@@ -11,7 +12,7 @@ function Main() {
         </p>
         <ul className="cards__list">
           {defaultClothingItems.map((item) => {
-            return <div>CARD</div>;
+            return <ItemCard key={item._id} item={item} />;
           })}
         </ul>
       </section>
