@@ -19,6 +19,19 @@
   margin: 0;
 }
 
+.modal__label {
+  margin-top: 24px;
+}
+
+.modal__input {
+  display: block;
+  margin-top: 8px;
+  width: 440px;
+  border-top: 1px;
+  border-left: none;
+  border-right: none;
+}
+
 .modal__close {
   position: absolute;
   top: 20px;
@@ -32,6 +45,8 @@
   max-width: 496px;
   box-sizing: border-box;
   width: 100%;
+  border-radius: 20px;
+  height: 436px;
 }
 
 .modal__form {
@@ -40,11 +55,16 @@
   width: 100%;
 }
 
-.modal__input {
-  display: block;
+.modal__legend {
+  margin-top: 24px;
 }
 
 .modal__radio-buttons {
   border: none;
   padding: 0;
+}
+
+.modal__label_type_radio {
+  display: flex;
+  justify-content: column;
 }
