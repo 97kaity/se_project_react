@@ -1,4 +1,5 @@
 import "./ModalWithForm.css";
+import Grey from "../../assets/Grey.png";
 
 function ModalWithForm({
   children,
@@ -16,7 +17,7 @@ function ModalWithForm({
           type="button"
           className="modal__close"
         >
-          CLOSE
+          <img src={Grey} alt="" />
         </button>
         <form className="modal__form">
           {children}
