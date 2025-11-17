@@ -67,4 +67,6 @@
 .modal__label_type_radio {
   display: flex;
   justify-content: column;
+  gap: 8px;
+  margin-bottom: 8px;
 }

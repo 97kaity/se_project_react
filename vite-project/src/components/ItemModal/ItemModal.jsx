@@ -1,4 +1,5 @@
 import "./ItemModal.css";
+import Close from "../../assets/Close.svg";
 
 function ItemModal({ activeModal, card, closeActiveModal }) {
   return (
@@ -9,7 +10,7 @@ function ItemModal({ activeModal, card, closeActiveModal }) {
           type="button"
           className="modal__close"
         >
-          CLOSE
+          <img src={Close} alt="" className="modal__close-image" />
         </button>
         <img src={card.link} alt="" className="modal__image" />
         <div className="modal__footer">
