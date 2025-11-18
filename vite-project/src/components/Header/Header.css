@@ -10,7 +10,7 @@
 
 .header__date-and-location {
   margin: 0;
-  font-family: "Cabinet Grotesk Bold.woff, sans-serif";
+  font-family: "Cabinet Grotesk, sans-serif";
   font-weight: 700;
   font-style: bold;
   font-size: 20px;
@@ -21,7 +21,7 @@
   margin-left: auto;
   border: none;
   margin-right: 20px;
-  font-family: "Cabinet Grotesk Bold.woff, sans-serif";
+  font-family: "Cabinet Grotesk, sans-serif";
   font-weight: 700;
   font-style: bold;
   font-size: 20px;
