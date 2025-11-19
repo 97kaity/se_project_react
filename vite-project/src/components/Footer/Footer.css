@@ -3,6 +3,8 @@
   justify-content: space-between;
   text-align: center;
   margin-top: 85px;
+  font-family: "CabinetGrotesk-Medium", sans-serif;
+  font-size: 16px;
 }
 
 .footer__date {
