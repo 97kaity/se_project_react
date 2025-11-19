@@ -26,6 +26,7 @@
   font-style: bold;
   font-size: 20px;
   line-height: 1;
+  cursor: pointer;
 }
 
 .header__user-container {
