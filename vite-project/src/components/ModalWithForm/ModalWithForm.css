@@ -16,14 +16,23 @@
 }
 
 .modal__title {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   margin: 0;
 }
 
 .modal__label {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   margin-top: 24px;
 }
 
 .modal__input {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   display: block;
   margin-top: 8px;
   width: 440px;
@@ -59,10 +68,16 @@
 }
 
 .modal__legend {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   padding-top: 24px;
 }
 
 .modal__radio-buttons {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   border: none;
   padding: 0;
 }
@@ -75,8 +90,14 @@
 }
 
 .modal__submit {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   margin-top: 32px;
   width: 124px;
   height: 36px;
   cursor: pointer;
+  color: white;
+  background-color: #000;
+  opacity: 0.3;
 }
