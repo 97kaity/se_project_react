@@ -17,7 +17,7 @@ function ModalWithForm({
           type="button"
           className="modal__close"
         >
-          <img src={Grey} alt="" />
+          <img src={Grey} alt="Close" />
         </button>
         <form className="modal__form">
           {children}
